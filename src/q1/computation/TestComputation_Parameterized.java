@@ -31,7 +31,6 @@ public class TestComputation_Parameterized {
 
    @Test
    public void testGetDiscount() throws Exception {
- 	  // TODO: Write Your Answer
 	  int actualResult = com.getDiscount(mInput1, mInput2); 
       Assert.assertEquals(mExpected, actualResult);
    }
